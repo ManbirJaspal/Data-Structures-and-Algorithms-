@@ -48,11 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/trello/arrays/StringArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contact.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/trello/objects/Contact.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -95,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/com/trello/arrays/charArray.java" />
         <option value="$PROJECT_DIR$/src/com/trello/arrays/FloatArray.java" />
         <option value="$PROJECT_DIR$/src/com/trello/arrays/StringArray.java" />
+        <option value="$PROJECT_DIR$/src/com/trello/objects/Contact.java" />
       </list>
     </option>
   </component>
@@ -172,6 +182,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="trello" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Collections" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="trello" type="462c0819:PsiDirectoryNode" />
               <item name="Students.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
@@ -198,13 +216,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringArray">
+  <component name="RunManager" selected="Application.Contact">
     <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.trello.arrays.Arrays" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.trello.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Contact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.trello.objects.Contact" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trello.objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,16 +253,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.trello.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Students" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.trello.Students" />
-      <module name="Collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.trello.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,19 +283,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.Students" />
       <item itemvalue="Application.Arrays" />
       <item itemvalue="Application.charArray" />
       <item itemvalue="Application.FloatArray" />
       <item itemvalue="Application.StringArray" />
+      <item itemvalue="Application.Contact" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Contact" />
         <item itemvalue="Application.StringArray" />
         <item itemvalue="Application.FloatArray" />
         <item itemvalue="Application.charArray" />
         <item itemvalue="Application.Arrays" />
-        <item itemvalue="Application.Students" />
       </list>
     </recent_temporary>
   </component>
@@ -420,24 +438,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trello/Students.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/trello/arrays/charArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arrays/GFG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -459,6 +463,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/trello/Students.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arrays/GFG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/trello/objects/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
