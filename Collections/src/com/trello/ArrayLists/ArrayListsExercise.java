@@ -17,7 +17,6 @@ class Cars {
     }
 }
 
-
 public class ArrayListsExercise {
 
     public static void main(String[] args) {
@@ -63,12 +62,9 @@ public class ArrayListsExercise {
 
         //Looping using Iterator itr
         for(Cars c: list){
-            System.out.println(c.color + ", " + c.modelNumber + );
+            System.out.println(c.color + ", " + c.modelNumber + ", " + c.make + ", " + c.name  );
         }
-
     }
-
-
 }
 
 
